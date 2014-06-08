@@ -1,0 +1,49 @@
+.logo {
+	background: url(../images/hdr-logo.png) no-repeat 173px top;
+	margin: 0 auto;
+	width: 950px;
+	height: 375px;
+	position: absolute;
+	z-index: -1;
+	text-indent: -999px;
+}
+.container {
+	margin: 0 auto;
+	width: 950px;
+}
+.main-content {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 100%;
+	color: $p;
+	padding-bottom: 3em;
+	margin-bottom: 2.75em;
+	box-shadow: 0 4px 6px #ccc;
+	overflow: auto;
+}
+.main-content-container {
+	margin: 0 auto;
+	width: 950px;
+
+	h1 {
+		margin-bottom: .35em;
+		padding-top: .5em;
+	}
+
+	h2 {
+		margin-bottom: .25em;
+	}
+
+	p {
+		margin-bottom: 1.25em;
+	}
+}
+.column {
+	float: left;
+	width: 48%;
+	margin-right: 4%;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
