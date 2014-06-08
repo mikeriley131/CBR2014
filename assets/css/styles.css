@@ -201,6 +201,8 @@ nav {
     padding: 6px 15px 6px 6px; }
   .secondary li:last-child {
     padding-right: 8px; }
+  .secondary a:hover {
+    color: #807770; }
 
 .title {
   width: 100%;
@@ -259,9 +261,9 @@ li.nav-nurses {
     font-size: 10px; }
 
 .logo {
-  background: url(../images/hdr-logo.png) no-repeat 173px top;
+  background: url(../images/hdr-logo.png) no-repeat -124px top;
   margin: 0 auto;
-  width: 950px;
+  width: 100%;
   height: 375px;
   position: absolute;
   z-index: -1;
