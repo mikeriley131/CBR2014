@@ -1,0 +1,181 @@
+header {
+	height: 480px;
+}
+nav {
+	font: $nav-font;
+	color: #fff;
+}
+.top-nav {
+	font: $top-nav-font;
+	background: url(../images/top-nav-bg-grey.png) no-repeat right top;
+	float: right;
+	width: 100%;
+
+		ul {
+			float: right;
+		}
+}
+.top-nav li {
+	float: left;
+	padding: 6px 6px 6px 15px;
+}
+.top-nav-home {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 0px 8px;
+}
+.top-nav-home:hover {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 0px -84px;
+}
+.top-nav-collab {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 0px -16px;
+}
+.top-nav-collab:hover {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 0px -107px;
+}
+.top-nav-matters {
+	background: url(../images/hdr-icon-sprite.png) no-repeat -2px -39px;
+}
+.top-nav-matters:hover {
+	background: url(../images/hdr-icon-sprite.png) no-repeat -2px -131px;
+}
+.top-nav-needs {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 1px -61px;
+}
+.top-nav-needs:hover {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 1px -153px;
+}
+.top-nav-home:hover, .top-nav-collab:hover, .top-nav-matters:hover, .top-nav-needs:hover, .social {
+	color: #98b7e8;
+}
+.social {
+	margin-right: 8px;
+}
+.social li {
+	padding: 6px 7px;
+}
+.fb {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 0px -174px;
+}
+.fb:hover {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 0px -239px;
+}
+.twitter {
+	background: url(../images/hdr-icon-sprite.png) no-repeat -1px -194px;
+}
+.twitter:hover {
+	background: url(../images/hdr-icon-sprite.png) no-repeat -1px -261px;
+}
+.youtube {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 1px -214px;
+}
+.youtube:hover {
+	background: url(../images/hdr-icon-sprite.png) no-repeat 1px -283px;
+}
+.secondary {
+	background: url(../images/top-nav-bg-blue.png) no-repeat right top;
+	float: right;
+	width: 100%;
+
+		ul {
+			float: right;
+		}
+
+		li {
+			float: left;
+			padding: 6px 15px 6px 6px;
+		}
+
+		li:last-child {
+			padding-right: 8px;
+		}
+}
+.title {
+	width: 100%;
+	float: right;
+	font: 2em 'museo700', Cambria, Georgia, Times, "Times New Roman", serif;
+	color: #fff;
+	margin-top: 23px;
+
+	img {
+		float: right;
+		margin-right: 10px;
+	}
+
+	span {
+		float: right;
+		margin-top: 8px;
+	}
+}
+.primary {
+	float: left;
+	width: 100%;
+	margin-top: 14px;
+
+	ul {
+		float: left;
+	}
+	li {
+		float: left;
+		padding: 17px 14px;
+	}
+}
+li.nav-kipow {
+	background-color: $kipow;
+}
+li.nav-macche {
+	background-color: $macche;
+}
+li.nav-teen-life {
+	background-color: $teen-life;
+}
+li.nav-ped-oral {
+	background-color: $ped-oral;
+}
+li.nav-student {
+	background-color: $student;
+}
+li.nav-nurses {
+	background-color: $nurses;
+	line-height: .85em;
+	padding: 8px 15px 7px 15px;
+
+	span {
+		font-size: .5em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
