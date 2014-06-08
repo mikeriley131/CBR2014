@@ -143,13 +143,15 @@ li.nav-student {
 }
 li.nav-nurses {
 	background-color: $nurses;
-	width: 199px;
+	width: 189px;
 	height: 41px;
 	padding-top: 9px;
+	padding-left: 10px;
+	text-align: left;
 	line-height: .85em;
 
 	span {
-		font-size: .5em;
+		font-size: 10px;
 	}
 }
 

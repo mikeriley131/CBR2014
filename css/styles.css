@@ -249,12 +249,14 @@ li.nav-student {
 
 li.nav-nurses {
   background-color: #003fa1;
-  width: 199px;
+  width: 189px;
   height: 41px;
   padding-top: 9px;
+  padding-left: 10px;
+  text-align: left;
   line-height: .85em; }
   li.nav-nurses span {
-    font-size: .5em; }
+    font-size: 10px; }
 
 .logo {
   background: url(../images/hdr-logo.png) no-repeat 173px top;
