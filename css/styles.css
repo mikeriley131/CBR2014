@@ -246,8 +246,16 @@ li.nav-nurses {
   li.nav-nurses span {
     font-size: .5em; }
 
+.logo {
+  background: url(../images/hdr-logo.png) no-repeat 173px top;
+  margin: 0 auto;
+  width: 950px;
+  height: 375px;
+  position: absolute;
+  z-index: -1;
+  text-indent: -999px; }
+
 .container {
-  background: url(../images/hdr-logo.png) no-repeat -128px top;
   margin: 0 auto;
   width: 950px; }
 
