@@ -112,12 +112,22 @@ h1 {
 h2 {
   font: 1.25em/1.25em 'calibribold', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; }
 
+h2 em {
+  font-style: italic; }
+
 p {
   font-size: 1.1em; }
+
+p.legal {
+  font-size: .75em;
+  line-height: 1.25em; }
 
 a {
   text-decoration: none;
   color: inherit; }
+
+small {
+  font-size: .75em; }
 
 header {
   height: 480px;
@@ -341,8 +351,10 @@ li.nav-nurses {
   .newman-photo p {
     font-size: .875em;
     margin-bottom: 10px; }
-    .newman-photo p small {
-      font-size: .75em; }
+
+ul.partners li {
+  list-style-type: disc;
+  margin-left: 17px; }
 
 .ftr-container {
   background: url(../images/ftr-logo.jpg) no-repeat top left;

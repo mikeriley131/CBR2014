@@ -10,10 +10,20 @@ h1 {
 h2 {
 	font: 1.25em/1.25em 'calibribold', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
+h2 em {
+	font-style: italic;
+}
 p {
 	font-size: 1.1em;
+}
+p.legal {
+	font-size: .75em;
+	line-height: 1.25em;
 }
 a {
 	text-decoration: none;
 	color: inherit;
+}
+small {
+	font-size: .75em;
 }
