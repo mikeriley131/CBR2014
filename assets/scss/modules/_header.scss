@@ -49,24 +49,40 @@ nav {
 }
 .social {
 	margin-right: 8px;
+	margin-top: 5px;
 }
 .social li {
-	padding: 6px 7px;
+	padding: 1px 3px;
 }
 .fb {
 	background: url(../images/hdr-icon-sprite.png) no-repeat 0px -174px;
+	display: block;
+	width: 9px;
+	height: 19px;
+	position: relative;
+	top: -5px;
 }
 .fb:hover {
 	background: url(../images/hdr-icon-sprite.png) no-repeat 0px -239px;
 }
 .twitter {
 	background: url(../images/hdr-icon-sprite.png) no-repeat -1px -194px;
+	display: block;
+	width: 13px;
+	height: 18px;
+	position: relative;
+	top: -4px;
 }
 .twitter:hover {
 	background: url(../images/hdr-icon-sprite.png) no-repeat -1px -261px;
 }
 .youtube {
 	background: url(../images/hdr-icon-sprite.png) no-repeat 1px -214px;
+	display: block;
+	width: 17px;
+	height: 20px;
+	position: relative;
+	top: -5px;
 }
 .youtube:hover {
 	background: url(../images/hdr-icon-sprite.png) no-repeat 1px -283px;
