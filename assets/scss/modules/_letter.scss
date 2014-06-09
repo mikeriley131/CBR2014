@@ -1,0 +1,55 @@
+.letter {
+	float: left;
+	width: 565px;
+	margin-right: 25px;
+	padding: 40px;
+	box-shadow: 1px 1px 6px 2px #ccc;
+
+	header {
+		float: left;
+		width: 100%;
+		height: 65px;
+		margin-bottom: 40px;
+
+		img {
+			float: left;
+		}
+
+		span {
+			float: right;
+			font: .5em/1.5em 'museo700', Cambria, Georgia, Times, "Times New Roman", serif;
+			font-size: .5em;
+			margin-right: 80px;
+		}
+	}
+
+	section {
+		float: left;
+		width: 100%;
+
+		p {
+			margin-bottom: 40px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		img {
+			margin-top: -20px;
+		}
+	}
+}
+.newman-photo {
+	float: left;
+	text-align: center;
+
+	p {
+		font-size: .875em;
+		margin-bottom: 10px;
+
+		small {
+			font-size: .75em;
+		}
+	}
+}

@@ -1,7 +1,7 @@
 .logo {
 	background: url(../images/hdr-logo.png) no-repeat -124px top;
 	margin: 0 auto;
-	width: 100%;
+	width: 20%;
 	height: 375px;
 	position: absolute;
 	z-index: -1;
@@ -15,7 +15,7 @@
 	background-color: #fff;
 	margin: 0 auto;
 	width: 100%;
-	color: $p;
+	color: $grey;
 	padding-bottom: 3em;
 	margin-bottom: 2.75em;
 	box-shadow: 0 4px 6px #ccc;
@@ -49,4 +49,7 @@
 }
 .watch-video {
 	margin-top: 20px;
+}
+.secondary-pages {
+	margin-top: -293px;
 }

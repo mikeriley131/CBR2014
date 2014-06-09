@@ -263,7 +263,7 @@ li.nav-nurses {
 .logo {
   background: url(../images/hdr-logo.png) no-repeat -124px top;
   margin: 0 auto;
-  width: 100%;
+  width: 20%;
   height: 375px;
   position: absolute;
   z-index: -1;
@@ -303,6 +303,46 @@ li.nav-nurses {
 
 .watch-video {
   margin-top: 20px; }
+
+.secondary-pages {
+  margin-top: -293px; }
+
+.letter {
+  float: left;
+  width: 565px;
+  margin-right: 25px;
+  padding: 40px;
+  box-shadow: 1px 1px 6px 2px #ccc; }
+  .letter header {
+    float: left;
+    width: 100%;
+    height: 65px;
+    margin-bottom: 40px; }
+    .letter header img {
+      float: left; }
+    .letter header span {
+      float: right;
+      font: .5em/1.5em 'museo700', Cambria, Georgia, Times, "Times New Roman", serif;
+      font-size: .5em;
+      margin-right: 80px; }
+  .letter section {
+    float: left;
+    width: 100%; }
+    .letter section p {
+      margin-bottom: 40px; }
+      .letter section p:last-child {
+        margin-bottom: 0; }
+    .letter section img {
+      margin-top: -20px; }
+
+.newman-photo {
+  float: left;
+  text-align: center; }
+  .newman-photo p {
+    font-size: .875em;
+    margin-bottom: 10px; }
+    .newman-photo p small {
+      font-size: .75em; }
 
 .ftr-container {
   background: url(../images/ftr-logo.jpg) no-repeat top left;
