@@ -131,7 +131,7 @@ small {
 
 header {
   height: 480px;
-  overflow: auto; }
+  overflow: hidden; }
 
 nav {
   font: 0.85em "museo300", Cambria, Georgia, Times, "Times New Roman", serif;
@@ -273,7 +273,7 @@ li.nav-nurses {
 .logo {
   background: url(../images/hdr-logo.png) no-repeat left top;
   margin-left: -8em;
-  width: 200%;
+  width: 450px;
   height: 375px;
   position: absolute;
   z-index: -1;
