@@ -356,6 +356,9 @@ ul.partners li {
   list-style-type: disc;
   margin-left: 17px; }
 
+img.dchcc {
+  margin: 40px 0; }
+
 .ftr-container {
   background: url(../images/ftr-logo.jpg) no-repeat top left;
   margin: 0 auto;
