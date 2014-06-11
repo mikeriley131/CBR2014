@@ -56,3 +56,16 @@ ul.partners li {
 img.dchcc {
 	margin: 40px 0;
 }
+.column table {
+	width: 100%;
+	margin-bottom: 10px;
+
+	td:last-child {
+		text-align: right;
+		font-size: 1.1em;
+	}
+}
+.right {
+	display: inline-block;
+	float: right;
+}

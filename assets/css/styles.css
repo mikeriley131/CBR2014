@@ -108,7 +108,8 @@ body {
   line-height: 1.5; }
 
 h1 {
-  font: 2.75em/1.25em 'museo700', Cambria, Georgia, Times, "Times New Roman", serif; }
+  font: 2.75em/1.25em 'museo700', Cambria, Georgia, Times, "Times New Roman", serif;
+  display: inline-block; }
 
 h2 {
   font: 1.25em/1.25em 'calibribold', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; }
@@ -380,6 +381,17 @@ ul.partners li {
 
 img.dchcc {
   margin: 40px 0; }
+
+.column table {
+  width: 100%;
+  margin-bottom: 10px; }
+  .column table td:last-child {
+    text-align: right;
+    font-size: 1.1em; }
+
+.right {
+  display: inline-block;
+  float: right; }
 
 .ftr-container {
   background: url(../images/ftr-logo.jpg) no-repeat top left;
