@@ -179,9 +179,10 @@ nav {
 .social {
   margin-right: 8px;
   margin-top: 5px; }
-
-.social li {
-  padding: 1px 3px; }
+  .social li {
+    padding: 1px 3px; }
+    .social li a {
+      display: block; }
 
 .fb {
   background: url(../images/hdr-icon-sprite.png) no-repeat 0px -174px;
@@ -332,6 +333,10 @@ li.nav-nurses {
 
 .secondary-pages {
   margin-top: -293px; }
+
+sup {
+  font-size: .75em;
+  vertical-align: top; }
 
 .letter {
   float: left;

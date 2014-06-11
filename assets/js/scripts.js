@@ -1,7 +1,7 @@
 // HEADER IMAGE CHANGE ON PRIMARY NAV ITEM HOVER
 $(document).ready(function() {
-	$('.nav-item').mouseenter(function() {
-	  var img = $(this).attr('data-headerimg'); 
+	var img = $(this).attr('data-headerimg');
+	$('.nav-item').mouseenter(function() { 
 	  $('img#header-img').attr('src', img);
 	}).mouseleave(function() {
 	  $('img#header-img').attr('src', img);

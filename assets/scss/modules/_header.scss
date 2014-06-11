@@ -50,9 +50,14 @@ nav {
 .social {
 	margin-right: 8px;
 	margin-top: 5px;
-}
-.social li {
-	padding: 1px 3px;
+
+	li {
+		padding: 1px 3px;
+
+		a {
+			display: block;
+		}
+	}
 }
 .fb {
 	background: url(../images/hdr-icon-sprite.png) no-repeat 0px -174px;
