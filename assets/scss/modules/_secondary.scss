@@ -60,10 +60,12 @@ img.dchcc {
 	width: 100%;
 	margin-bottom: 10px;
 
-	td:last-child {
-		text-align: right;
+	td {
 		font-size: 1.1em;
 	}
+}
+.col2 {
+	text-align: right;
 }
 .right {
 	display: inline-block;
