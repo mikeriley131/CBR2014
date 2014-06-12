@@ -113,6 +113,10 @@ h1 {
 
 h2 {
   font: 1.25em/1.25em 'calibribold', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; }
+  h2 a {
+    transition: color .5s; }
+    h2 a:hover {
+      color: #807770; }
 
 h2 em {
   font-style: italic; }
