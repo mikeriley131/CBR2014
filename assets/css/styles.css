@@ -299,8 +299,8 @@ li.nav-nurses {
 .logo {
   background: url(../images/hdr-logo.png) no-repeat left top;
   margin-left: -8em;
-  width: 450px;
-  height: 375px;
+  width: 470px;
+  height: 250px;
   position: absolute;
   z-index: -1;
   text-indent: -9999px; }
