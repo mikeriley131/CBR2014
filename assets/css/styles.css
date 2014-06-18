@@ -347,6 +347,11 @@ sup {
   font-size: .75em;
   vertical-align: top; }
 
+.reg {
+  font-size: 1.25em;
+  line-height: 0;
+}
+
 .letter {
   float: left;
   width: 565px;
@@ -407,6 +412,12 @@ img.dchcc {
   margin: 0 auto;
   width: 950px;
   height: 115px; }
+  .ftr-container a {
+    display: inline-block;
+    float: left;
+    width: 111px;
+    height: 45px;
+  } 
 
 footer p {
   float: right;
